@@ -1,0 +1,543 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.bodybody{
+    border: 0;
+}
+.container {
+    width: 100%;
+    height: 1000px;
+    background: rgba(255, 144, 14, 0.1);
+    /* border: 2px solid blue; */
+}
+.bar {
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.header-nav-title {
+    color: #131313;
+    font-size: 25px;
+    margin-left: 150px;
+}
+ul {
+    display: flex;
+    gap: 25px;
+    margin-right: 150px;
+}
+.links li {
+    list-style: none;
+}
+.links li a {
+    color: #424242;
+    text-decoration: none;
+}
+.headertext {
+    margin: 40px 350px;
+    width: 47%;
+    height: 210px;
+    /* text-align: center; */
+    /* border: 2px solid black; */
+}
+.headertitle {
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #131313;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+.headerdescription {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    /* border: 1px solid black; */
+}
+.button1{
+    text-align: center;
+}
+.primarybtn {
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.image {
+    text-align: center;
+    margin: 40px 150px;
+    /* border: 1px solid black; */
+}
+.image img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+}
+.mainbody {
+    margin: 75px 200px;
+}
+
+.sectiononecontainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+.sectiononeimages {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.sectiononeimages img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.sectiononetext {
+    margin-top: 100px;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 255px;
+} 
+.quick {
+    font-size: 30px;
+    color: #727272;
+}
+.our {
+    font-size: 30px;
+    color: #131313;
+}
+.feature {
+    font-size: 30px;
+    color: #FF900E;
+}
+.sectiononedescription {
+    font-size: 16px;
+    color: #727272;
+}
+.sectiontwocontainer {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+}
+.sectiontwotext {
+    /* width: 50%; */
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+.sectiontwoimage {
+    /* border: 1px solid black; */
+}
+.sectiontwoimage img {
+    width: 80%;
+    height: 650px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.sectiontwobox {
+    width: 35%;
+    height: 120px;
+    background-color: #FF900E;
+    padding-top: 25px;
+    z-index: 2;
+    position: relative;
+    top: -100px;
+}
+
+.sectiontwoboxheading {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sectiontwoboxp {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Sectiontwopartoneheader {
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+    width: 75%;
+    font-weight: 800;
+    color: #131313;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.sectiontwotextparttwobox {
+    padding-top: 5px;
+    padding-left: 10px;
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.twoparttwoheader {
+    /* border: 1px solid black; */
+    width: 60%;
+    font-weight: 600;
+    font-size: 15px;
+    color: #131313;
+}
+.twopartonedescription{
+    /* border: 1px solid black; */
+    width: 100%;
+    color: #727272;
+    font-size: 14px; 
+}
+.sectionthreecontainer {
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+}
+.Sectionthreeheader {
+    width: 75%;
+    font-weight: 800;
+    color: #131313;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.threedescription {
+    width: 50%;
+    color: #727272;
+    font-size: 14px;
+    margin-bottom: 50px; 
+}
+.boxcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+.box-1 {
+    width: 15%;
+    height: 120px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    transition: width 1s, height 1s, transform 2s;
+}
+.box-1:hover {
+    transform: rotate(360deg);
+    width: 30%;
+    height: 200px;
+    background-color: lightpink;
+}
+.box-1 img {
+    padding-top: 20px;
+    width: 25px;
+    height: 25px;
+}
+.boxmiddle {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+}
+.boxdescription {
+    color: #727272;
+    font-size: 14px;
+    margin-bottom: 20px; 
+}
+
+.sectionfourtext {
+    width: 50%;
+    /* border: 1px solid black; */
+    margin-left: 225px;
+    margin-bottom: 40px;
+}
+.sectionfourcontainer {
+    border: 0;
+}
+.sectionfourheader {
+    font-weight: 800;
+    color: #131313;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.sectionfourdescription {
+    color: #727272;
+    font-size: 14px;
+    text-align: center;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+    width: 120px;
+    color: #727272;
+    mix-blend-mode: luminosity;
+}
+footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+}
+/* Top players styles */
+.playercontainer{
+    /* background-color: lightcoral; */
+    width: 100%;
+    /* padding: 30px; */
+    border-radius: 5px;
+}
+/* For .top-players section  */
+.top-players{
+    margin-bottom: 30px;
+}
+
+/* For Top Player Heading  */
+.section-title{
+    font-weight: 800;
+    color: #131313;
+    font-size: 28px;
+    margin-top: 3px;
+    text-align: center;
+}
+/* Plyers grid box  */
+.palyers{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    padding-bottom: 16px;
+}
+/* players name and image arrange  */
+.player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/* players image  */
+.player img{
+    width: 56px;
+    height: 56px;
+}
+/* players name  */
+.player-name{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 576px) {
+    .bodybody{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .container {
+        margin-top: 0;
+        height: 550px;
+    }
+    .bar {
+        /* border: 1px solid black; */
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .header-nav-title {
+        margin: 0;
+    }
+    ul {
+        text-align: center;
+        gap: 10px;
+        margin: 0;
+    }
+    .headertext {
+        /* border: 1px solid black; */
+        margin: 20px 50px;
+        width: 70%;
+        height: 150px;
+    }
+    .headertitle {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #131313;
+        /* border: 1px solid black; */
+        margin-bottom: 10px;
+    }
+    .headerdescription {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #727272;
+        /* border: 1px solid black; */
+    }
+    .primarybtn {
+        width: 40%;
+        height: 30px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .image {
+        text-align: center;
+        margin: 20px 40px;
+        /* border: 1px solid black; */
+    }
+    .image img {
+        height: 200px;
+    }
+    .mainbody {
+        margin: 20px 40px;
+        /* border: 1px solid black; */
+    }
+    .sectiononecontainer {
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .sectiononeimages {
+        /* border: 1px solid black; */
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    
+    .sectiononeimages img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .sectiononetext {
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 200px;
+    } 
+    .quick {
+        font-size: 25px;
+        color: #727272;
+    }
+    .our {
+        font-size: 25px;
+        color: #131313;
+    }
+    .feature {
+        font-size: 25px;
+        color: #FF900E;
+    }
+    .sectiononedescription {
+        font-size: 12px;
+        color: #727272;
+    }
+    .sectiontwocontainer {
+        margin-top: 20px;
+        /* border: 1px solid black; */
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .sectiontwotextparttwobox {
+        /* border: 1px solid black; */
+        width: 95%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .sectiontwoimage img {
+        width: 83%;
+        height: 400px;
+        margin-left: 40px;
+    }
+    .Sectiontwopartoneheader {
+        width: 85%;
+        font-size: 22px;
+    }
+    .sectiontwobox {
+        width: 50%;
+        height: 80px;
+        top: -80px;
+        /* border: 1px solid red; */
+    }
+    .sectiontwoboxheading {
+        font-size: 25px;
+    }
+    .sectiontwoboxp {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .Sectionthreeheader {
+        width: 95%;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .threedescription {
+        width: 80%;
+        font-size: 14px;
+    }
+    .boxcontainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .box-1 {
+        width: 85%;
+        height: 120px;
+    }
+    .box-1:hover {
+        width: 85%;
+        height: 120px;
+    }
+    .box-1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .boxmiddle {
+        font-size: 25px;
+    }
+    .boxdescription {
+        font-size: 15px; 
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .palyers{
+        margin-left: 0;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .sectionfourtext {
+        width: 50%;
+        /* border: 1px solid black; */
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    .sectionfourheader {
+        font-size: 20px;
+    }
+    .sectionfourdescription {
+        font-size: 10px;
+    }
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo img{
+        height: 20px;
+        width: 80px;
+    }
+    footer {
+        margin-top: 20px;
+        height: 40px;
+        padding-top: 5px;
+        font-size: 6px;
+    }
+}
